@@ -1,0 +1,31 @@
+# Airflow log files
+logs/
+
+# Airflow SQLite metadata database (if using SQLite for metadata)
+airflow.db
+
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Cache and temporary files
+*.log
+*.bak
+*.swp
+
+# IDE specific files (e.g., VSCode, PyCharm)
+.vscode/
+.idea/
+
+# System files (e.g., macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Virtual environment
+venv/
+.env/
+envvv/
+
+# Astronomer-specific files (if using Astronomer for deployments)
+.astronomer/
